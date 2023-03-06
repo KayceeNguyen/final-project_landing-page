@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+
+}
+
+.custom-img {
+  background-image: url('/../gradient-BG.jpg')
+}
+
+.p-3 {
+  border-radius: 8px;
+  border: 1px solid #6dc9c4;
+}
+
+.mt-2 {
+  background-color: #c4dd81;
+  border: none;
+  color: black;
+}
+
+.mt-2:hover {
+  background-color: #8dc443;
+  color: white;
+}
+
+.p-4:hover {
+  color: #2fbbb3;
+}
+
+.p-4 > Link:active {
+  color: #2fbbb3;
+  font-weight: bolder;
+}
+
+.font-bold {
+  color: #2fbbb3;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.px-8 {
+  border: 2px solid #8dc443;
+  border-radius: 8px;
+}
+
+.px-8:hover {
+  background-color: #8dc443;
+  color: #ffff;
+}

@@ -33,7 +33,7 @@ html {
   color: #2fbbb3;
 }
 
-.p-4:active {
+.p-4 > Link:active {
   color: #2fbbb3;
   font-weight: bolder;
 }
